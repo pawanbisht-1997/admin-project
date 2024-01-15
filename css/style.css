@@ -19,6 +19,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+h1{
+
+        color: #fff;
+        text-transform: uppercase;
+
+}
 h2{
     color: #7b8bb7;
     margin-bottom: 25px;
@@ -60,4 +66,13 @@ label {
     display: inline-block;
     color: #8a8f9f;
    text-transform: capitalize;
+}
+
+@media(max-width:575px)
+{
+    form {
+     
+        width: 90%;
+
+    }
 }
